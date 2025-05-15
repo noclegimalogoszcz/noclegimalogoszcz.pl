@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://noclegimalogoszcz.pl/sitemap.xml
