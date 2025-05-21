@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Noclegi Małogoszcz - Kwatery Pracownicze u Ryśka. Komfortowe pokoje 2-5 osobowe, internet, kuchnie, łazienki, faktury. Blisko Lafarge, Lhoist, Trzuskawica.">
+  <meta name="keywords" content="noclegi Małogoszcz, kwatery pracownicze, noclegi cementownia, noclegi Trzuskawica, noclegi Bukowa, noclegi Chęciny">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://noclegimalogoszcz.pl/">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <title>Noclegi Małogoszcz - Kwatery Pracownicze u Ryśka</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LodgingBusiness",
+    "name": "Kwatery Pracownicze u Ryśka",
+    "description": "Komfortowe pokoje 2-5 osobowe, szybki internet, kuchnie, łazienki. Blisko cementowni Małogoszcz.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Pustowójtówny 4",
+      "addressLocality": "Małogoszcz",
+      "postalCode": "28-366",
+      "addressCountry": "PL"
+    },
+    "telephone": "+48 123 456 789"
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="lang-switcher">
+      <a href="index.html">PL</a> | <a href="ua.html">UA</a>
+    </div>
+    <h1>Noclegi Małogoszcz - Kwatery Pracownicze u Ryśka</h1>
+    <p class="availability">Aktualnie są wolne pokoje - <span id="currentDate"></span></p>
+  </header>
+
+  <section class="about">
+    <h2>O nas</h2>
+    <p>Oferujemy 30 miejsc noclegowych w pokojach 2-5 osobowych.</p>
+    <ul>
+      <li>- parking na 10 samochodów</li>
+      <li>- 5 aneksów kuchennych w pełni wyposażonych</li>
+      <li>- 5 łazienek</li>
+      <li>- taras, grill</li>
+      <li>- szybki internet</li>
+      <li>- telewizor w każdym pokoju</li>
+      <li>- cotygodniowe sprzątanie w cenie</li>
+      <li><b style="color:red">- wystawiamy faktury (bez VAT)</b></li>
+    </ul>
+  </section>
+
+  <section class="location">
+    <h3>Znajdujemy się</h3>
+    <ul>
+      <li>- 1 km od cementowni Małogoszcz (Holcim)</li>
+      <li>- Trzuskawica</li>
+      <li>- Bukowa</li>
+      <li>- Chęciny</li>
+      <li>- Rynek Małogoszcz</li>
+    </ul>
+  </section>
+
+  <section class="gallery">
+    <h2>Galeria</h2>
+    <div class="gallery-container">
+      <!-- Obrazy podmienisz później -->
+      <a href="images/room1.jpg" data-lightbox="rooms"><img src="images/room1.jpg" alt="Pokój 1" /></a><a href="images/room2.jpg" data-lightbox="rooms"><img src="images/room2.jpg" alt="Pokój 2" /></a><a href="images/room3.jpg" data-lightbox="rooms"><img src="images/room3.jpg" alt="Pokój 3" /></a><a href="images/room4.jpg" data-lightbox="rooms"><img src="images/room4.jpg" alt="Pokój 4" /></a><a href="images/room5.jpg" data-lightbox="rooms"><img src="images/room5.jpg" alt="Pokój 5" /></a>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Kontakt</h2>
+    <p><strong>Ryszard:</strong> <a href="tel:+48123456789">+48 123 456 789</a></p>
+    <p><strong>Wanda:</strong> <a href="tel:+48987654321">+48 987 654 321</a></p>
+    <p><strong>Adres:</strong> Pustowójtówny 4, 28-366 Małogoszcz</p>
+    <p><strong>Email:</strong> <a href="mailto:udzwig.wiater@gmail.com">udzwig.wiater@gmail.com</a></p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <script>
+    document.getElementById('currentDate').textContent = new Date().toLocaleDateString();
+  </script>
+</body>
+</html>
