@@ -1,1 +1,1 @@
-# noclegimadlogoszcz.pl
+# noclegimalogoszcz.pl
