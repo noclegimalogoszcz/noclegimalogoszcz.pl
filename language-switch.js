@@ -1,0 +1,1 @@
+function switchLanguage(lang) { /* przełączanie języka */ }
