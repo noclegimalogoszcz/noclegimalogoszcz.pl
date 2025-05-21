@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noclegi Małogoszcz</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LodgingBusiness",
+    "name": "Noclegi Małogoszcz",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Pustowójtówny 4",
+      "addressLocality": "Małogoszcz",
+      "postalCode": "28-366",
+      "addressCountry": "PL"
+    },
+    "telephone": "+48 123 456 789",
+    "url": "https://noclegimalogoszcz.pl"
+  }
+  </script>
+</head>
+<body>
+  <div class="lang-buttons">
+    <button onclick="switchLanguage('pl')">PL</button>
+    <button onclick="switchLanguage('ua')">UA</button>
+  </div>
+
+  <h1 id="title">Noclegi Małogoszcz</h1>
+  <p id="desc">Tanie noclegi dla pracowników</p>
+
+  <div class="gallery">
+    <img src="pokoj1.jpg" alt="Pokój 1" onclick="openLightbox(this.src)" />
+    <img src="pokoj2.jpg" alt="Pokój 2" onclick="openLightbox(this.src)" />
+    <img src="pokoj3.jpg" alt="Pokój 3" onclick="openLightbox(this.src)" />
+  </div>
+
+  <div id="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" />
+  </div>
+
+  <script src="main.js"></script>
+  <script src="language-switch.js"></script>
+</body>
+</html>
